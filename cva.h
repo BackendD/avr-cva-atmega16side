@@ -12,8 +12,7 @@
 #include <stdint-gcc.h>
 #include <avr/io.h>
 
-class Modem
-{
+class Modem {
 public:
 	Modem(uint32_t freq, uint8_t bufferSize);
 	~Modem();
